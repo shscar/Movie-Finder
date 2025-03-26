@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Movie Finder 🍿</h1>
+        <p>Cari film berdasarkan nama:</p>
+
+        <div class="search-container">
+            <input type="text" id="movieName" placeholder="Masukkan nama film" aria-label="true">
+            <button id="searchMovies"><i class="fas fa-search"></i> Cari</button>
+        </div>
+
+        <div id="loader"></div>
+        <div id="movieList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
